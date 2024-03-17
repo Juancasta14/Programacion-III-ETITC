@@ -4,32 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
     <title>Carta</title>
 
+    
 </head>
 
 <body>
-    <nav class="nav1">
-        <a href=""> Inicio</a>77
-        <a href="">sobre nosotros</a>
-       </nav>
-   
+      <div cass="menu">   
+        <nav class="mask">
+        <a href="index.html">Carta a un amigo</a>
+        <ul class="list">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+ 
+      
+
+    
 <div class="container"> 
-    <p id="imagen"> <img src="img/carta.png" alt="" width="100" align="center">
-        <div align="right" class="header">     
-            
-            
-                <em><b>Dr Juan Castaneda Tenjo</b><br>
-                
+    
+        <div class="header">  
+            <img src="img/carta.png" alt="" width="100">
+            <p class="texto"> 
+                <em><b>Dr. Sebastián Aguilera  </b><br>
                 Departamento de Seguidad Nacional <br>Bogotá, Colombia. <br>
                 <b>Tel: </b> 328-794-678 <br> <b> E-mail: </b>juan@juan.com</em>
                
             </p>
-            <p>Marzo 12, 2024</p>
+            
         </div>
-
+        <p align="right">Marzo 12, 2024</p>
         <div>
-            <p> <em><b>Sebastián Aguilera <br></b>
+            <p> <em><b>Juan Castaneda Tenjo<br></b>
                     Bogotá,Colombia <br>
                     Calle 15a # 25 <br></em></p>
         </div>
@@ -76,7 +88,7 @@
         
         
         <hr>
-        <div class="container3"> 
+        
         <p><b>I know that your Spanish is not that good so now I'm going to explain myself in English</b></p>
         <p> I hope this message finds you well. I wanted to take a moment to tell you about something exciting I've been
             doing lately: <b>I'm learning HTML5!</b>
@@ -108,19 +120,49 @@
             development. </p>
         <b>I hope to talk to you soon and share more about this excitisng journey!</b></p>
 
-        <p>Also don't forget to follow me on <a href="https://www.instagram.com/">Instagram</a> and in <a
-                href="https://www.facebook.com">Facebook</a></p>
+        <p>Also don't forget to follow me on <a href="https://www.instagram.com/" target="_blank">Instagram</a> and in <a
+                href="https://www.facebook.com" target="_blank">Facebook</a></p>
 
-        <p><i>Mi gato te manda saludes también!</i></p>
-        <div align="center" >
+        <h3><i><br>Mi gato te manda saludes también!</i></h3>
+        <div class="gato" >
             <img src="img/cat.jpg" alt="" width="800px">
 
-     
+     <div><br>This is where I live In the case you whish visit me:</div>
         <div class="mapa">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31813.902113201097!2d-74.087492!3d4.6408005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9beaa5647337%3A0x6fa358372e109359!2sTeusaquillo%2C%20Bogot%C3%A1!5e0!3m2!1ses-419!2sco!4v1710461887386!5m2!1ses-419!2sco" 
             width="600" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-            <div><iframe width="780" height="520" src="https://www.youtube.com/embed/WEBiMXDRd7Y" title="Andrés Cepeda - Prométeme (Video Oficial)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+            <div><br>This my new favorite song: <i id="amazing">It's amazing!!!</i></div>
+            <div id="video"><iframe width="780" height="520" src="https://www.youtube.com/embed/WEBiMXDRd7Y" title="Andrés Cepeda - Prométeme (Video Oficial)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
     
+    </div>
+<h3> <br>Ingresa aquí tus datos para poderme contactar contigo:</h3>
+    <div class="form">
+        <form class="row g-3">
+            <div class="col-md-2">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-2">
+              <label for="inputAddress" class="form-label">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="Adress">
+            </div>
+            <div class="col-md-2">
+              <label for="inputCity" class="form-label">City</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-2">
+              <label for="inputState" class="form-label">State</label>
+              <select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option>FL</option>
+                <option>CA</option>
+                <option>NY</option>
+                <option>MI</option>
+                <option>NC</option>
+                <option>AZ</option>
+              </select>
+            </div>
+          </form>
     </div>
 </body>
 
