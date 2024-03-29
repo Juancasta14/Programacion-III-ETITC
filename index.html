@@ -136,34 +136,32 @@
     
     </div>
 <h3> <br>Ingresa aquí tus datos para poderme contactar contigo:</h3>
-    <div class="form">
-        <form class="row g-3">
-            <div class="col-md-2">
-              <label for="inputEmail4" class="form-label">Email</label>
-              <input type="email" class="form-control" id="inputEmail4">
-            </div>
-            <div class="col-2">
-              <label for="inputAddress" class="form-label">Address</label>
-              <input type="text" class="form-control" id="inputAddress" placeholder="Adress">
-            </div>
-            <div class="col-md-2">
-              <label for="inputCity" class="form-label">City</label>
-              <input type="text" class="form-control" id="inputCity">
-            </div>
-            <div class="col-md-2">
-              <label for="inputState" class="form-label">State</label>
-              <select id="inputState" class="form-select">
-                <option selected>Choose...</option>
-                <option>FL</option>
-                <option>CA</option>
-                <option>NY</option>
-                <option>MI</option>
-                <option>NC</option>
-                <option>AZ</option>
-              </select>
-            </div>
-          </form>
-    </div>
+<br>
+<form id="formulario">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido" name="apellido" required>
+
+    <label for="numero1">Número 1:</label>
+    <input type="text" id="numero1" name="numero1" required>
+
+    <label for="numero2">Número 2:</label>
+    <input type="text" id="numero2" name="numero2" required>
+<br>
+<div>
+    <input type="submit" value="Enviar">
+    <br>
+    <button id="limpiar">Limpiar</button>
+    <div id="resultado"></div>
+</div>
+</form>
+
+
+<script src="js/calcular.js">
+    
+    </script>
 </body>
 
 </html>

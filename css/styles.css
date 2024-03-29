@@ -11,7 +11,7 @@ margin: 0;
   min-height: 200vh;
   font-size: 0;
   font-family: Helvetica, Verdana, sans-serif;
-
+  align-items: center;
 }
 
 nav {
@@ -128,4 +128,64 @@ margin-top: 30px;
 text-align: center;
 
     }
-   
+    form {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      max-width: 400px;
+      width: 100%;
+    
+  }
+  label,
+  input {
+      display: block;
+      margin-bottom: 10px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="numero"] {
+      width: calc(100% - 20px);
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+  }
+  input[type="submit"] {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  }
+  input[type="submit"]:hover {
+      background-color: #0056b3;
+  }
+
+
+  
+  #limpiar {
+      display: block;
+      margin-bottom: 10px;
+  }
+  
+  #limpiar{
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  }
+  #limpiar:hover {
+      background-color: #0056b3;
+  }
+
+ 
+  #formulario{
+    margin: 50%;
+    transform: translate(-50%,0%);
+    margin-top: 10px; 
+  }
