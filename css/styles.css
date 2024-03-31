@@ -144,7 +144,8 @@ text-align: center;
   }
   input[type="text"],
   input[type="email"],
-  input[type="numero"] {
+  input[type="number"]
+   {
       width: calc(100% - 20px);
       padding: 10px;
       border: 1px solid #ccc;
@@ -170,7 +171,7 @@ text-align: center;
       margin-bottom: 10px;
   }
   
-  #limpiar{
+  .limpiar{
       background-color: #007bff;
       color: #fff;
       padding: 10px 20px;
@@ -179,13 +180,21 @@ text-align: center;
       cursor: pointer;
       transition: background-color 0.3s ease;
   }
-  #limpiar:hover {
+  .limpiar:hover {
       background-color: #0056b3;
   }
 
  
-  #formulario{
-    margin: 50%;
-    transform: translate(-50%,0%);
-    margin-top: 10px; 
+  .formulario{
+    float: left;
+    width: calc(50% - 10px); 
+    margin-right: 20px; 
+  margin-left: 10%;
+  }
+  .forms{
+margin-top: 5%;
+    overflow: hidden; 
+  }
+  .resultado{
+    margin-top: 3%;
   }
