@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" version="6.0">
+  <servlet>
+    <description>Parcial 3 Juan David Castaneda Tenjo</description>
+    <display-name>Parcial3</display-name>
+    <servlet-name>WelcomeServlet</servlet-name>
+    <servlet-class>WelcomeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>WelcomeServlet</servlet-name>
+    <url-pattern>/welcome</url-pattern>
+  </servlet-mapping>
+  <display-name>parcial3</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>welcome</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Basededatos</display-name>
+    <servlet-name>Basededatos</servlet-name>
+    <servlet-class>Basededatos</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Basededatos</servlet-name>
+    <url-pattern>/basededatos</url-pattern>
+  </servlet-mapping>
+</web-app>
